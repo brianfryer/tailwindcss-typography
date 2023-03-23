@@ -29,25 +29,25 @@ let defaultModifiers = {
           marginBottom: em(24, 18),
           paddingLeft: em(20, 18),
         },
-        h1: {
+        'h1, [class~="h1"]': {
           fontSize: em(30, 14),
           marginTop: '0',
           marginBottom: em(24, 30),
           lineHeight: round(36 / 30),
         },
-        h2: {
+        'h2, [class~="h2"]': {
           fontSize: em(20, 14),
           marginTop: em(32, 20),
           marginBottom: em(16, 20),
           lineHeight: round(28 / 20),
         },
-        h3: {
+        'h3, [class~="h3"]': {
           fontSize: em(18, 14),
           marginTop: em(28, 18),
           marginBottom: em(8, 18),
           lineHeight: round(28 / 18),
         },
-        h4: {
+        'h4, [class~="h4"]': {
           marginTop: em(20, 14),
           marginBottom: em(8, 14),
           lineHeight: round(20 / 14),
@@ -76,10 +76,10 @@ let defaultModifiers = {
         code: {
           fontSize: em(12, 14),
         },
-        'h2 code': {
+        'h2 code, [class~="h2"] code': {
           fontSize: em(18, 20),
         },
-        'h3 code': {
+        'h3 code, [class~="h3"] code': {
           fontSize: em(16, 18),
         },
         pre: {
@@ -140,13 +140,13 @@ let defaultModifiers = {
         'hr + *': {
           marginTop: '0',
         },
-        'h2 + *': {
+        'h2 + *, [class~="h2"] + *': {
           marginTop: '0',
         },
-        'h3 + *': {
+        'h3 + *, [class~="h3"] + *': {
           marginTop: '0',
         },
-        'h4 + *': {
+        'h4 + *, [class~="h4"] + *': {
           marginTop: '0',
         },
         table: {
@@ -207,25 +207,25 @@ let defaultModifiers = {
           marginBottom: em(32, 20),
           paddingLeft: em(20, 20),
         },
-        h1: {
+        'h1, [class~="h1"]': {
           fontSize: em(36, 16),
           marginTop: '0',
           marginBottom: em(32, 36),
           lineHeight: round(40 / 36),
         },
-        h2: {
+        'h2, [class~="h2"]': {
           fontSize: em(24, 16),
           marginTop: em(48, 24),
           marginBottom: em(24, 24),
           lineHeight: round(32 / 24),
         },
-        h3: {
+        'h3, [class~="h3"]': {
           fontSize: em(20, 16),
           marginTop: em(32, 20),
           marginBottom: em(12, 20),
           lineHeight: round(32 / 20),
         },
-        h4: {
+        'h4, [class~="h4"]': {
           marginTop: em(24, 16),
           marginBottom: em(8, 16),
           lineHeight: round(24 / 16),
@@ -254,10 +254,10 @@ let defaultModifiers = {
         code: {
           fontSize: em(14, 16),
         },
-        'h2 code': {
+        'h2 code, [class~="h2"] code': {
           fontSize: em(21, 24),
         },
-        'h3 code': {
+        'h3 code, [class~="h3"] code': {
           fontSize: em(18, 20),
         },
         pre: {
@@ -318,13 +318,13 @@ let defaultModifiers = {
         'hr + *': {
           marginTop: '0',
         },
-        'h2 + *': {
+        'h2 + *, [class~="h2"] + *': {
           marginTop: '0',
         },
-        'h3 + *': {
+        'h3 + *, [class~="h3"] + *': {
           marginTop: '0',
         },
-        'h4 + *': {
+        'h4 + *, [class~="h4"] + *': {
           marginTop: '0',
         },
         table: {
@@ -385,25 +385,25 @@ let defaultModifiers = {
           marginBottom: em(40, 24),
           paddingLeft: em(24, 24),
         },
-        h1: {
+        'h1, [class~="h1"]': {
           fontSize: em(48, 18),
           marginTop: '0',
           marginBottom: em(40, 48),
           lineHeight: round(48 / 48),
         },
-        h2: {
+        'h2, [class~="h2"]': {
           fontSize: em(30, 18),
           marginTop: em(56, 30),
           marginBottom: em(32, 30),
           lineHeight: round(40 / 30),
         },
-        h3: {
+        'h3, [class~="h3"]': {
           fontSize: em(24, 18),
           marginTop: em(40, 24),
           marginBottom: em(16, 24),
           lineHeight: round(36 / 24),
         },
-        h4: {
+        'h4, [class~="h4"]': {
           marginTop: em(32, 18),
           marginBottom: em(8, 18),
           lineHeight: round(28 / 18),
@@ -432,10 +432,10 @@ let defaultModifiers = {
         code: {
           fontSize: em(16, 18),
         },
-        'h2 code': {
+        'h2 code, [class~="h2"] code': {
           fontSize: em(26, 30),
         },
-        'h3 code': {
+        'h3 code, [class~="h3"] code': {
           fontSize: em(21, 24),
         },
         pre: {
@@ -496,13 +496,13 @@ let defaultModifiers = {
         'hr + *': {
           marginTop: '0',
         },
-        'h2 + *': {
+        'h2 + *, [class~="h2"] + *': {
           marginTop: '0',
         },
-        'h3 + *': {
+        'h3 + *, [class~="h3"] + *': {
           marginTop: '0',
         },
-        'h4 + *': {
+        'h4 + *, [class~="h4"] + *': {
           marginTop: '0',
         },
         table: {
@@ -563,25 +563,25 @@ let defaultModifiers = {
           marginBottom: em(48, 30),
           paddingLeft: em(32, 30),
         },
-        h1: {
+        'h1, [class~="h1"]': {
           fontSize: em(56, 20),
           marginTop: '0',
           marginBottom: em(48, 56),
           lineHeight: round(56 / 56),
         },
-        h2: {
+        'h2, [class~="h2"]': {
           fontSize: em(36, 20),
           marginTop: em(56, 36),
           marginBottom: em(32, 36),
           lineHeight: round(40 / 36),
         },
-        h3: {
+        'h3, [class~="h3"]': {
           fontSize: em(30, 20),
           marginTop: em(48, 30),
           marginBottom: em(20, 30),
           lineHeight: round(40 / 30),
         },
-        h4: {
+        'h4, [class~="h4"]': {
           marginTop: em(36, 20),
           marginBottom: em(12, 20),
           lineHeight: round(32 / 20),
@@ -610,10 +610,10 @@ let defaultModifiers = {
         code: {
           fontSize: em(18, 20),
         },
-        'h2 code': {
+        'h2 code, [class~="h2"] code': {
           fontSize: em(31, 36),
         },
-        'h3 code': {
+        'h3 code, [class~="h3"] code': {
           fontSize: em(27, 30),
         },
         pre: {
@@ -674,13 +674,13 @@ let defaultModifiers = {
         'hr + *': {
           marginTop: '0',
         },
-        'h2 + *': {
+        'h2 + *, [class~="h2"] + *': {
           marginTop: '0',
         },
-        'h3 + *': {
+        'h3 + *, [class~="h3"] + *': {
           marginTop: '0',
         },
-        'h4 + *': {
+        'h4 + *, [class~="h4"] + *': {
           marginTop: '0',
         },
         table: {
@@ -741,25 +741,25 @@ let defaultModifiers = {
           marginBottom: em(64, 36),
           paddingLeft: em(40, 36),
         },
-        h1: {
+        'h1, [class~="h1"]': {
           fontSize: em(64, 24),
           marginTop: '0',
           marginBottom: em(56, 64),
           lineHeight: round(64 / 64),
         },
-        h2: {
+        'h2, [class~="h2"]': {
           fontSize: em(48, 24),
           marginTop: em(72, 48),
           marginBottom: em(40, 48),
           lineHeight: round(52 / 48),
         },
-        h3: {
+        'h3, [class~="h3"]': {
           fontSize: em(36, 24),
           marginTop: em(56, 36),
           marginBottom: em(24, 36),
           lineHeight: round(44 / 36),
         },
-        h4: {
+        'h4, [class~="h4"]': {
           marginTop: em(40, 24),
           marginBottom: em(16, 24),
           lineHeight: round(36 / 24),
@@ -788,10 +788,10 @@ let defaultModifiers = {
         code: {
           fontSize: em(20, 24),
         },
-        'h2 code': {
+        'h2 code, [class~="h2"] code': {
           fontSize: em(42, 48),
         },
-        'h3 code': {
+        'h3 code, [class~="h3"] code': {
           fontSize: em(32, 36),
         },
         pre: {
@@ -852,13 +852,13 @@ let defaultModifiers = {
         'hr + *': {
           marginTop: '0',
         },
-        'h2 + *': {
+        'h2 + *, [class~="h2"] + *': {
           marginTop: '0',
         },
-        'h3 + *': {
+        'h3 + *, [class~="h3"] + *': {
           marginTop: '0',
         },
-        'h4 + *': {
+        'h4 + *, [class~="h4"] + *': {
           marginTop: '0',
         },
         table: {
@@ -1318,7 +1318,7 @@ module.exports = {
         'blockquote p:last-of-type::after': {
           content: 'close-quote',
         },
-        h1: {
+        'h1, [class~="h1"]': {
           color: 'var(--tw-prose-headings)',
           fontWeight: '800',
         },
@@ -1326,7 +1326,7 @@ module.exports = {
           fontWeight: '900',
           color: 'inherit',
         },
-        h2: {
+        'h2, [class~="h2"]': {
           color: 'var(--tw-prose-headings)',
           fontWeight: '700',
         },
@@ -1334,7 +1334,7 @@ module.exports = {
           fontWeight: '800',
           color: 'inherit',
         },
-        h3: {
+        'h3, [class~="h3"]': {
           color: 'var(--tw-prose-headings)',
           fontWeight: '600',
         },
@@ -1342,7 +1342,7 @@ module.exports = {
           fontWeight: '700',
           color: 'inherit',
         },
-        h4: {
+        'h4, [class~="h4"]': {
           color: 'var(--tw-prose-headings)',
           fontWeight: '600',
         },
@@ -1372,10 +1372,10 @@ module.exports = {
         'h1 code': {
           color: 'inherit',
         },
-        'h2 code': {
+        'h2 code, [class~="h2"] code': {
           color: 'inherit',
         },
-        'h3 code': {
+        'h3 code, [class~="h3"] code': {
           color: 'inherit',
         },
         'h4 code': {
