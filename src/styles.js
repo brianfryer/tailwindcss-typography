@@ -1322,7 +1322,7 @@ module.exports = {
           color: 'var(--tw-prose-headings)',
           fontWeight: '800',
         },
-        'h1 strong': {
+        'h1 strong, [class~="h1"] strong': {
           fontWeight: '900',
           color: 'inherit',
         },
@@ -1330,7 +1330,7 @@ module.exports = {
           color: 'var(--tw-prose-headings)',
           fontWeight: '700',
         },
-        'h2 strong': {
+        'h2 strong, [class~="h2"] strong': {
           fontWeight: '800',
           color: 'inherit',
         },
@@ -1338,7 +1338,7 @@ module.exports = {
           color: 'var(--tw-prose-headings)',
           fontWeight: '600',
         },
-        'h3 strong': {
+        'h3 strong, [class~="h3"] strong': {
           fontWeight: '700',
           color: 'inherit',
         },
@@ -1346,7 +1346,7 @@ module.exports = {
           color: 'var(--tw-prose-headings)',
           fontWeight: '600',
         },
-        'h4 strong': {
+        'h4 strong, [class~="h4"] strong': {
           fontWeight: '700',
           color: 'inherit',
         },
@@ -1369,7 +1369,7 @@ module.exports = {
         'a code': {
           color: 'inherit',
         },
-        'h1 code': {
+        'h1 code, [class~="h1"] code': {
           color: 'inherit',
         },
         'h2 code, [class~="h2"] code': {
@@ -1378,7 +1378,7 @@ module.exports = {
         'h3 code, [class~="h3"] code': {
           color: 'inherit',
         },
-        'h4 code': {
+        'h4 code, [class~="h4"] code': {
           color: 'inherit',
         },
         'blockquote code': {
