@@ -77,12 +77,12 @@ module.exports = plugin.withOptions(
 
       for (let [name, ...selectors] of [
         ['headings', 'h1', '[class~="h1"]', 'h2', '[class~="h2"]', 'h3', '[class~="h3"]', 'h4', '[class~="h4"]', 'h5', '[class~="h5"]', 'h6', '[class~="h6"]', 'th'],
-        ['h1', '[class~="h1"]'],
-        ['h2', '[class~="h2"]'],
-        ['h3', '[class~="h3"]'],
-        ['h4', '[class~="h4"]'],
-        ['h5', '[class~="h5"]'],
-        ['h6', '[class~="h6"]'],
+        ['h1', 'h1', '[class~="h1"]'],
+        ['h2', 'h2', '[class~="h2"]'],
+        ['h3', 'h3', '[class~="h3"]'],
+        ['h4', 'h4', '[class~="h4"]'],
+        ['h5', 'h5', '[class~="h5"]'],
+        ['h6', 'h6', '[class~="h6"]'],
         ['p'],
         ['a'],
         ['blockquote'],
