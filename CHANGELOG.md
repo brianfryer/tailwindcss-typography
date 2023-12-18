@@ -9,6 +9,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Nothing yet!
 
+## [0.5.10] - 2023-09-05
+
+### Fixed
+
+- Fix space between `<figcaption>` and `<pre>` ([#313](https://github.com/tailwindlabs/tailwindcss-typography/pull/313))
+- Remove typography styles from `not-prose` elements in addition to their children ([#301](https://github.com/tailwindlabs/tailwindcss-typography/pull/301))
+- Add `<picture>` styles ([#314](https://github.com/tailwindlabs/tailwindcss-typography/pull/314))
+- Fix `prose-invert` when used with colors in light mode ([#315](https://github.com/tailwindlabs/tailwindcss-typography/pull/315))
+- Add `<kbd>` styles ([#317](https://github.com/tailwindlabs/tailwindcss-typography/pull/317))
+- Add description list (`<dl>`, `<dt>`, `<dd>`) styles ([#316](https://github.com/tailwindlabs/tailwindcss-typography/pull/316))
+
 ## [0.5.9] - 2023-01-10
 
 ### Fixed
@@ -164,7 +175,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Everything!
 
-[unreleased]: https://github.com/tailwindlabs/tailwindcss-typography/compare/v0.5.7...HEAD
+[unreleased]: https://github.com/tailwindlabs/tailwindcss-typography/compare/v0.5.10...HEAD
+[0.5.10]: https://github.com/tailwindlabs/tailwindcss-typography/compare/v0.5.9...v0.5.10
+[0.5.9]: https://github.com/tailwindlabs/tailwindcss-typography/compare/v0.5.8...v0.5.9
+[0.5.8]: https://github.com/tailwindlabs/tailwindcss-typography/compare/v0.5.7...v0.5.8
 [0.5.7]: https://github.com/tailwindlabs/tailwindcss-typography/compare/v0.5.6...v0.5.7
 [0.5.6]: https://github.com/tailwindlabs/tailwindcss-typography/compare/v0.5.5...v0.5.6
 [0.5.5]: https://github.com/tailwindlabs/tailwindcss-typography/compare/v0.5.4...v0.5.5
