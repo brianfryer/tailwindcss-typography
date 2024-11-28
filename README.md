@@ -168,6 +168,7 @@ Here's a complete list of available element modifiers:
 | `prose-figcaption:{utility}` | `figcaption`                 |
 | `prose-strong:{utility}`     | `strong`                     |
 | `prose-em:{utility}`         | `em`                         |
+| `prose-kbd:{utility}`        | `kbd`                        |
 | `prose-code:{utility}`       | `code`                       |
 | `prose-pre:{utility}`        | `pre`                        |
 | `prose-ol:{utility}`         | `ol`                         |
@@ -287,7 +288,7 @@ module.exports = {
 }
 ```
 
-See our internal [style definitions](https://github.com/tailwindlabs/tailwindcss-typography/blob/master/src/styles.js) for some more examples.
+See our internal [style definitions](https://github.com/tailwindlabs/tailwindcss-typography/blob/main/src/styles.js) for some more examples.
 
 ### Changing the default class name
 
@@ -382,7 +383,7 @@ module.exports = {
 
 Customizations should be applied to a specific modifier like `DEFAULT` or `xl`, and must be added under the `css` property. Customizations are authored in the same [CSS-in-JS syntax](https://tailwindcss.com/docs/plugins#css-in-js-syntax) used to write Tailwind plugins.
 
-See [the default styles](https://github.com/tailwindlabs/tailwindcss-typography/blob/master/src/styles.js) for this plugin for more in-depth examples of configuring each modifier.
+See [the default styles](https://github.com/tailwindlabs/tailwindcss-typography/blob/main/src/styles.js) for this plugin for more in-depth examples of configuring each modifier.
 
 ---
 
