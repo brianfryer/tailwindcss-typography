@@ -33,6 +33,21 @@ Then add the plugin to your main `style.css` file:
 + @plugin "@tailwindcss/typography";
 ```
 
+If you are still using **Tailwind CSS v3**, add the plugin to your `tailwind.config.js` file:
+
+```js
+// tailwind.config.js
+module.exports = {
+  theme: {
+    // ...
+  },
+  plugins: [
+    require('@tailwindcss/typography'),
+    // ...
+  ],
+}
+```
+
 ---
 
 ## Basic usage
@@ -229,6 +244,8 @@ If you have a block of markup embedded in some content that shouldn't inherit th
 ```
 
 Note that you can't nest new `prose` instances within a `not-prose` block at this time.
+
+Even when using a prefix for your utilities `not-prose` should not have a prefix.
 
 ### Adding custom color themes
 
